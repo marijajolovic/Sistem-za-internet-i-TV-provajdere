@@ -1,0 +1,2 @@
+PROVIDER # MTS
+CONNSTRING # Data Source=C:\Users\radov\Desktop\Dizajniranje_softvera\Projekat\ClonedProject\src\db\a1_database.db;

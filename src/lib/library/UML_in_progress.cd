@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="library.AppLogic.AppLogic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAABAAAgAAAEEMgBJAAEgAAAAhABAAAAAAAEIAAAAg=</HashCode>
+      <FileName>AppLogic\AppLogic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.AppLogic.Clients.Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAJAAAAAAQAAAAEAAAAAAAAAAAAAGgAAAAg=</HashCode>
+      <FileName>AppLogic\Clients\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.AppLogic.Clients.ClientLogic" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAEAAAAABAAgAAAAAAAIAAAIA=</HashCode>
+      <FileName>AppLogic\Clients\ClientLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.AppLogic.Commands.ActivatePacketCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppLogic\Commands\ActivatePacketCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.AppLogic.Commands.DeactivatePacketCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppLogic\Commands\DeactivatePacketCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.AppLogic.Memento.ConcreteCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAIAAAEAAAAAAABAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AppLogic\Memento\ConcreteCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.AppLogic.Memento.Snapshot" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAgAAABAAAAABAQIQAAAAAA=</HashCode>
+      <FileName>AppLogic\Memento\Snapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.AppLogic.Packets.CombinedPacketBuilder" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAoAAAAAAQAAAAAIAIIAAAAAg=</HashCode>
+      <FileName>AppLogic\Packets\CombinedPacketBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.AppLogic.Packets.DirectorPacketBuilder" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppLogic\Packets\DirectorPacketBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.AppLogic.Packets.InternetPacketBuilder" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAoAAAAAAQAAAAAIAIIAAAAAg=</HashCode>
+      <FileName>AppLogic\Packets\InternetPacketBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.AppLogic.Packets.Packet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAEAAAAAAQAAQAEABAAAAAQEAAAAQA=</HashCode>
+      <FileName>AppLogic\Packets\Packet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.AppLogic.Packets.PacketBuilder" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAoAAAAAAQAAAAAIAIAAAAAAg=</HashCode>
+      <FileName>AppLogic\Packets\PacketBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="library.AppLogic.Packets.PacketLogic" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABQAgAAAAAgAAAAAABAEAAAAQQACAAAAIA=</HashCode>
+      <FileName>AppLogic\Packets\PacketLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.AppLogic.Packets.TVPacketBuilder" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAoAAAAAAQAAAAAIAIIAAAAAg=</HashCode>
+      <FileName>AppLogic\Packets\TVPacketBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.Database.ConnectionMySQL" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ConnectionMySQL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.Database.ConnectionSQLite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ConnectionSQLite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.Database.Database" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYgAAABAAAAJAAAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>Database\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.Database.DatabaseConnectionFactory" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Database\DatabaseConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.Other.LoggerFolder.BaseLogger" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Other\LoggerFolder\BaseLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="library.Other.LoggerFolder.ConcreteLogger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQABAAA=</HashCode>
+      <FileName>Other\LoggerFolder\ConcreteLogger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="library.Other.LoggerFolder.FileLogger" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Other\LoggerFolder\FileLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="library.Other.TextParser" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Other\TextParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="library.AppLogic.Commands.IPacketCommand" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppLogic\Commands\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="library.AppLogic.Interfaces.IAppLogicFacade" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAABAAAgAAAEEEAABAAEgAAAAAABAAAAAAAEIAAAAg=</HashCode>
+      <FileName>AppLogic\Interfaces\IAppLogicFacade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="library.AppLogic.Interfaces.IPacketBuilder" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAoAAAAAAQAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>AppLogic\Interfaces\IPacketBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="library.AppLogic.Interfaces.IPrototype&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>AppLogic\Interfaces\IPrototype.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="library.AppLogic.Memento.ICommandMemento" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppLogic\Memento\ICommandMemento.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="library.Database.IDatabaseConnection" Collapsed="true">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\IDatabaseConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="library.Other.LoggerFolder.ILogger" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Other\LoggerFolder\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="library.Database.DatabaseType" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\DatabaseConnectionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
