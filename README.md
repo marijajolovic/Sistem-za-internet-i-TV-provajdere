@@ -2,7 +2,7 @@
 
 ### Opis projekta
 
-Projekat sistem za internet i TV provajdere predstavlja projekat petoro studenata III godine predmeta **Dizajniranje softvera**, _Prirodno-matematičkog fakulteta_. Specifikacija zahteva projekta se može naći [ovde]([https://github.com/marijajolovic/Sistem-za-internet-i-TV-provajdere/blob/main/docs/opisProjekta.md]). Tim čine:
+Projekat sistem za internet i TV provajdere predstavlja projekat petoro studenata III godine predmeta **Dizajniranje softvera**, _Prirodno-matematičkog fakulteta_. Specifikacija zahteva projekta se može naći [ovde](https://github.com/marijajolovic/Sistem-za-internet-i-TV-provajdere/blob/main/docs/opisProjekta.md). Tim čine:
 - Radovan Drašković
 - Marija Jolović
 - Damjan Pavlović
