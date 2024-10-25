@@ -20,9 +20,7 @@ Obzirom da se projekat sastoji iz _class library_ biblioteke i _windows forms ap
 - MySQL
 
 UML dijagram koji predstavlja strukturu biblioteke se može preuzeti [ovde](https://github.com/marijajolovic/Sistem-za-internet-i-TV-provajdere/blob/main/docs/UML_packet_providers.png).
-<div>
-  <img src="../docs/UML_packet_providers.png" alt="UML dijagram" height=700>
-</div>
+![UML dijagram](../docs/UML_packet_providers.png)
 
 Primer rada aplikacije:
 https://gitlab.pmf.kg.ac.rs/ds/projekat-2023/tim-01/-/blob/master/docs/vid.mp4?expanded=true&viewer=rich
